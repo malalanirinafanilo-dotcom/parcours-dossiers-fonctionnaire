@@ -1,88 +1,24 @@
-# ====================
-# DEPENDANCES
-# ====================
+# Node modules
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+frontend-propre/node_modules/
 
-# ====================
-# FRONTEND (React/Vite)
-# ====================
-frontend-propre/dist/
-frontend-propre/dist-ssr/
-frontend-propre/*.local
-frontend-propre/.env.local
-frontend-propre/.env.*.local
-
-# Logs
-logs/
-*.log
-
-# ====================
-# BACKEND (Django)
-# ====================
-mon_projet_django_propre/__pycache__/
-mon_projet_django_propre/*/__pycache__/
-mon_projet_django_propre/*/*/__pycache__/
+# Python
+__pycache__/
 *.py[cod]
-*$py.class
-
-# Migrations (optionnel - à garder si vous voulez versionner)
-# mon_projet_django_propre/*/migrations/__pycache__/
-# mon_projet_django_propre/*/migrations/*.pyc
-
-# Environnement virtuel
 venv/
 env/
-ENV/
-env.bak/
-venv.bak/
-.venv/
 
-# Base de données
-*.db
-*.sqlite3
-*.sql
-
-# Fichiers de configuration sensibles
-mon_projet_django_propre/config/.env
+# Environnement
 .env
 *.env
-!.env.example
 
-# Fichiers médias
-mon_projet_django_propre/media/
+# Media
 media/
+mon_projet_django_propre/media/
 
-# Fichiers statiques collectés
-staticfiles/
-static/
+# Logs
+*.log
 
-# ====================
-# EDI / ÉDITEURS
-# ====================
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# ====================
-# AUTRES
-# ====================
-*.log
-*.tmp
-*.temp
-*.bak
-*.cache
-*.pid
-*.seed
-*.pid.lock
